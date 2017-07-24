@@ -144,6 +144,8 @@ minetest.register_node("digilines:chest", {
 	end
 })
 
+spoil.register_inv("digilines:chest", {"main"})
+
 minetest.register_craft({
 	type = "shapeless",
 	output = "digilines:chest",
